@@ -1,8 +1,20 @@
-program teste; {programa exemplo}
+program exProcedure;
 var
-valor1: integer;
-valor2: real;
+   a, b, c,  min: integer;
+procedure findMin(x, y, z: integer; m: real);
+{ Finds the minimum of the 3 values }
+
 begin
-valor1 := 10;
-valor2 := 10.2222;
+   if x < y then
+      m:= x
+   else
+      m:= y;
+
+   if z < m then
+      m:= z;
+end; { end of procedure findMin }
+
+begin
+   readln( a, b, c);
+   findMin(a, b, c, min); { Procedure call }
 end.
