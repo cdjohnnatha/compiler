@@ -6,7 +6,7 @@
     "start": "node ./bin/www",
     "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
     "test": "jest",
-    "test:sintatic": "jest /tests/sintatic.test.js"
+    "test:sintatic": "jest /tests/sintatic.test.js --verbose"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",

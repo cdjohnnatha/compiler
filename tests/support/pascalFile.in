@@ -1,20 +1,16 @@
-program exProcedure;
-var
-   a, b, c,  min: integer;
-procedure findMin(x, y, z: integer; m: real);
-{ Finds the minimum of the 3 values }
+program oi;   {programa exemplo
+fefesfsefsefsf}
 
+var oi, tolete: integer;
+    xau, xuxubeleza: boolean;
+procedure oi (oi:integer; td:real);
+    begin
+
+    end;
 begin
-   if x < y then
-      m:= x
-   else
-      m:= y;
+    xau := (220);
+    while 1 > 4 do
+        begin
 
-   if z < m then
-      m:= z;
-end; { end of procedure findMin }
-
-begin
-   readln( a, b, c);
-   findMin(a, b, c, min); { Procedure call }
+        end
 end.
