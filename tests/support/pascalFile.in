@@ -11,5 +11,5 @@ end;
 begin
     do
         x := 9.5
-    while ( x < 10)
+    while ( x < 222.2)
 end.
