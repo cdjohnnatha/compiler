@@ -1,16 +1,15 @@
-program oi;   {programa exemplo
-fefesfsefsefsf}
+program teste;
+var
+    x, h: real;
+procedure limpar (y:integer);
+var
+    z, j:boolean;
 
-var oi, tolete: integer;
-    xau, xuxubeleza: boolean;
-procedure oi (oi:integer; td:real);
-    begin
-
-    end;
 begin
-    xau := (220);
-    while 1 > 4 do
-        begin
-
-        end
+    y := 1 + 10;
+end;
+begin
+    do
+        x := 9.5
+    while ( x < 10)
 end.
