@@ -4,9 +4,17 @@ var
 procedure limpar (y:integer);
 var
     z, j:boolean;
+procedure limpar2 (l:integer);
+var
+    z, j:boolean;
 
 begin
-    y := 1 + 10;
+    // y := 1 + 10;
+    if (z and true) then z := false end;
+end;
+begin
+    // y := 1 + 10;
+    if (z and true) then z := false end;
 end;
 begin
     do
